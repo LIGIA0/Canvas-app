@@ -1,0 +1,72 @@
+
+    <!DOCTYPE html>
+    <html>
+    
+        <head>
+            <title>Canvas</title>
+            <link href="1_1093_VASILACHE_Ligia-Gabriela.css" type="text/css" rel="stylesheet"/>
+        </head>
+    
+<body>
+
+  <h1> Canvas Application Example <img src="https://image.pngaaa.com/744/65744-middle.png" alt="Butterfly" width="70" height="70"class="paint"></h1>
+
+    <div class="controls">
+        <h3>Shape:</h3>
+        <div class='lightBorder' >
+        <p><input type="radio" name="shape" value="line" checked="checked"> Line</p>
+        <p><input type="radio" name="shape" value="rect"> Rectangle</p>
+        <p><input type="radio" name="shape" value="circle"> Circle</p>
+        <p><input type="radio" name="shape" value="square"> Square</p>
+        <p><input type="radio" name="shape" value="ellipse"> Ellipse</p>
+      </div>
+        <h3>Line Type:</h3>
+        <div class='lightBorder'>
+        <p><label>Line Width: <input id='lineWidth' type='range' step='1' min="1" max="200" value="4"></label></p>
+       
+    
+      </div>
+      <h3>Colors:</h3>
+        <div class='lightBorder'>
+    
+        
+        <p><label>Fill Color: <input id='fillColor' type='color' step='1' value="#24B0D5"></label></p>
+        <p><label>Stroke Color: <input id='strokeColor' type='color' step='1'> </label></p>
+        <p><label>Fill: <input id='fillBox' type='checkbox' checked='checked'></label></p>
+
+
+      </div>
+        <div class='lightBorder'>
+        
+        <p><label>Background-color: </label></p>
+        <button id="chPink" type="button" class="background-color">Pink</button>
+        <button id="chMint" type="button"  class="background-color">Mint</button>
+        <button id="chLavender" type="button" class="background-color">Lavender</button>
+        <button id="chBlue" type="button"  class="background-color">Blue</button>
+        <button id="chPeach" type="button"  class="background-color">Peach</button>
+    
+      </div>
+    
+      <form>
+      <h3> Image: </h3> 
+      <button type="button" class="button-error pure-button" id="clearCanvas" name="button">Clear Canvas</button>
+      
+      </form>
+      
+      <button id="save" type="button" class="save">Save</button>
+
+      </div>
+    
+    
+      <canvas id="canvas" width="650" height="800"></canvas>
+    </body>
+
+    <script src="1_1093_VASILACHE_Ligia-Gabriela.js"></script>
+</html>
+
+
+
+
+
+
+

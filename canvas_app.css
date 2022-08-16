@@ -1,0 +1,81 @@
+canvas {
+    float: left;
+    position: relative;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    background-color: white;
+    
+  
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  h1 {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  html, body {
+    background: #f5f5f5;
+
+  }
+
+  #canvas1 {
+    margin-left: 1150px;
+    margin-top: 30px;
+  }
+  
+  .controls {
+    width: 200px;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: #D9D9D9;
+    transition: all .5s ease;
+    float: left;
+    position: relative;
+    margin: 10px;
+    height: 800px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: Arial;
+  
+  }
+  .controls h3 {
+    color: #3D3D3D;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 10px;
+  }
+  
+  .lightBorder {
+    border: 1px solid #B6B6B6;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    padding: 5px;
+    border-radius: 7px;
+    background: #EEEEEE;
+    box-shadow: inset 1px 1px 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    margin-left: 300px;
+  }
+  
+  p {
+    margin: 4px;
+  }
+  
+  .button-error {
+      color: white;
+      border-radius: 4px;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+      background: rgb(160, 150, 219); 
+  }
+ 
+  .save{
+    margin-top: 10px;
+
+  }
